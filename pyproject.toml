@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "aula14-bootcamp"
+version = "0.1.0"
+description = ""
+authors = ["André Moraes <andrelamounier@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.110.2"
+faker = "^24.14.1"
+pandas = "^2.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
